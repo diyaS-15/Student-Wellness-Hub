@@ -1,6 +1,8 @@
 import StudyWall from "./StudyWall";
 import ToDo from "./ToDo";
-
+import SelfCare from "./SelfCareSection";
+import MoodTracker from "./MoodTrackerSection"; 
+import VirtualPet from "./VirtualPet";
 
 export default function Homepage() {
     return (
@@ -10,13 +12,19 @@ export default function Homepage() {
                 <div className="bg-[#ede9e1] rounded-lg row-span-4">
                     <StudyWall/>
                 </div>
-                <div className="row-span-2">
+                <div className="bg-[#ede9e1] row-span-2">
                     <ToDo/>
                 </div>
-                <div className="bg-[#ede9e1] rounded-lg row-span-1">Self Care</div>
-                <div className="bg-[#ede9e1] rounded-lg row-span-1">Mood</div>
+                <div className="bg-[#ede9e1] rounded-lg row-span-1">
+                    <SelfCare/>
+                </div>
+                <div className="bg-[#ede9e1] rounded-lg row-span-1">
+                    <MoodTracker/>
+                </div>
                 <div className="bg-[#ede9e1] rounded-lg row-span-2">Spotify</div>
-                <div className="bg-[#ede9e1] rounded-lg row-span-2">Pet image</div>
+                <div className="row-span-2">
+                    <VirtualPet/>
+                </div>
             </div>
         </div>
     )
