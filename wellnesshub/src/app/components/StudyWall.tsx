@@ -1,5 +1,5 @@
 export default function StudyWall() {
     return (
-        <h2 className="text-4xl">Study Wall</h2>
+        <h2 className="text-4xl">study wall</h2>
     )
 }
