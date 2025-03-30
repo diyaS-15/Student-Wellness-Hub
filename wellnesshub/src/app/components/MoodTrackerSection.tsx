@@ -35,12 +35,12 @@ const handleMoodChange = async (newMood: number) => {
             className="w-20 h-8  text-s p-2 border border-[#3b2f2a] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3b2f2a] mt-4 mb-4"
       />
 
-        <div className="w-full h-5 bg-[#b0c4b1]">
+        <div className="w-full h-5 bg-[#4a5759]">
     <div //dynamic changing mood
         style={{
             width: `${(mood/10)*100}%`,
             height: "100%",
-            background: "#B0C4B1", 
+            background: "#b0c4b1", 
         }}
         />
         </div>
