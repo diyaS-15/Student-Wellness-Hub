@@ -2,12 +2,11 @@ import Image from "next/image";
 export default function VirtualPet() {
     return (
         <div>
-            <h2 className="text-xl">Pet Here!</h2>
-            <Image 
+            <Image className="float-right"
             src="/images/cat.png"
             alt="Bo the virtual cat pet"
-            width={311}
-            height={379}
+            width={250}
+            height={400}
             />
         </div>
     )

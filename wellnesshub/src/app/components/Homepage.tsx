@@ -12,7 +12,7 @@ export default function Homepage() {
                 <div className="bg-[#ede9e1] rounded-lg row-span-4">
                     <StudyWall/>
                 </div>
-                <div className="bg-[#ede9e1] row-span-2">
+                <div className="bg-[#ede9e1] rounded-lg row-span-2">
                     <ToDo/>
                 </div>
                 <div className="bg-[#ede9e1] rounded-lg row-span-1">
