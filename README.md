@@ -10,9 +10,12 @@ We mainly aim provide the user with the reasources to maintain a balance between
 Throughout this hackathon we focused on both learning and strengthen our skills with Next.js and TailWindCSS. We worked with MongoDB to store our mood rating. Additionally, we learned about npm, Node.js, integrating API Keys, and working with GitHub. Lastly, we researched into FastAPI and Flask but have not fully integrated that yet. 
 
 ## Challeneges we faced
-During the last 24 hours, we faced more challenges than initially aniticipated. The primary challenges were regarding AI models and the best way to integrate them into the project. Initially we had planned to generate AI powered sentiments from the virtual pet, automatic generation of self-help tips, and sentiment analysis for 
+During the last 24 hours, we faced more challenges than initially aniticipated. The primary challenges were regarding AI models and the best way to integrate them into the project. Initially we had planned to generate AI powered sentiments from the virtual pet, automatic generation of self-help tips, and sentiment analysis for mood tracking. We faced issues with the API calls for popular AI models like openai and gemini as they reuqired payment and issues with integrating a python backend framework.
 
 ## Future Integrations
-Moving forward, we plan
+Moving forward, we plan integrate NLP Sentiment Analysis of the mood tracking data, integrate the virtual pet interactions like pop-up compliments, and integrate academic support features like note summarization. Additionally, we would like to focus on a backend framework like FastAPI moving forward with the project. 
 
-What makes your project stand out?
+## Our Demo
+https://asu.zoom.us/rec/share/rUtPFuH8kD18_TRNYWMzoQincluoq_ekSFySWBRCRGV6tSRYK3d3Hdz_OLqi5cc.aGpAdUnVXNbqFXS6
+Passcode: 7j!U=v?g
+
