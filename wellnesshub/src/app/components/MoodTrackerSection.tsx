@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 
 const MoodTrackerSection = () => {
-    const [mood, setMood] = useState<number>(10); //this the default mood
+    const [mood, setMood] = useState<number>(5); //this the default mood
 
 useEffect(() => {
     const fetchMood = async () => {
@@ -25,20 +25,22 @@ const handleMoodChange = async (newMood: number) => {
 
   return (
     <div>
-        <h2 className="text-xl"> Mood Tracker </h2>
+        <h2 className="text-xl"> mood tracker </h2>
         <input 
             type="number"
             min="0"
             max="10"
             value={mood} 
             onChange={(e) => handleMoodChange(Number(e.target.value))}
+            className="w-20 h-8  text-s p-2 border border-[#3b2f2a] rounded-lg focus:outline-none focus:ring-2 focus:ring-[#3b2f2a] mt-4 mb-4"
       />
-      <div className="w-full h-5 bg-[#b0c4b1]">
+
+        <div className="w-full h-5 bg-[#b0c4b1]">
     <div //dynamic changing mood
         style={{
             width: `${(mood/10)*100}%`,
             height: "100%",
-            background: "#4a5759",
+            background: "#B0C4B1", 
         }}
         />
         </div>
