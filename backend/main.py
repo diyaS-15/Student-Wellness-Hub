@@ -1,0 +1,1 @@
+# Perplexity, gemini, openai are all not free 
