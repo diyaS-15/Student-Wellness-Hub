@@ -14,7 +14,7 @@ export default function ToDo() {
 
     return (
         <div>
-            <h2 className="text-xl ">To Do: </h2>
+            <h2 className="text-4xl ">To Do: </h2>
             <div className="">
             <input type="text"
             className="rounded-lg"
