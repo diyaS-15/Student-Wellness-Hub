@@ -19,3 +19,5 @@ Moving forward, we plan integrate NLP Sentiment Analysis of the mood tracking da
 https://asu.zoom.us/rec/share/rUtPFuH8kD18_TRNYWMzoQincluoq_ekSFySWBRCRGV6tSRYK3d3Hdz_OLqi5cc.aGpAdUnVXNbqFXS6
 Passcode: 7j!U=v?g
 
+presentation slides: https://docs.google.com/presentation/d/1rJT76YJIdpfsyeYLKnqlW2fmJV8UIxRQX-8wodxtkEM/edit?usp=sharing 
+
