@@ -5,19 +5,27 @@ export default function ToDo() {
     const [list, setList] = useState([]);
     const [editIndex, setEditIndex] = useState(null); 
     
+    const createTask = () => {};
+    const updateTask = () => {};
+    const deleteTask = () => {}; 
+    const completeTask = () => {}; 
+    const deleteList = () => {}; 
+
+
     return (
         <div>
             <h2 className="text-xl ">To Do: </h2>
-            <div className="flex">
+            <div className="">
             <input type="text"
-            placeholder={"Enter Text"}/>
-            <button className="bg-[#deceae] pl-2 pr-2">Add</button>
+            className="rounded-lg"
+            placeholder="Enter Text" value={task} onChange={e => setTask(e.target.value)}/>
+            <button onClick={createTask} className="bg-[#deceae] rounded-lg pl-2 pr-2 m-1" >Add</button>
+            <button onClick={deleteList} className="bg-[#deceae] rounded-lg pl-2 pr-2" >Reset</button>
             </div>
-            <ul>
-                <li>item 1</li>
-                <li>item 2</li>
-                <li>item 3</li>
-            </ul>
+            list.map()
+            <div>
+                
+            </div>
         </div>
     )
 }
